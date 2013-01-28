@@ -1,0 +1,66 @@
+body {
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 12pt;
+}
+body h1 {
+  margin-left: 18px;
+  color: #5555cc;
+  font-size: 26pt;
+}
+body h2,
+body h3 {
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0000aa), color-stop(1, #0000dd));
+  background: -ms-linear-gradient(bottom, #0000aa, #0000dd);
+  background: -moz-linear-gradient(center bottom, #0000aa 0%, #0000dd 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 10px;
+}
+body > div {
+  width: 100%;
+  margin-left: 20px;
+}
+body > table {
+  margin-left: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  vertical-align: middle;
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #aaa;
+  width: 200px;
+}
+table td {
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #aaa;
+}
+.label {
+  font-weight: bold;
+  font-size: larger;
+}
+.topic_of_letter,
+input,
+textarea {
+  padding: 10px;
+  width: 80%;
+  font-size: 12pt;
+}
+button {
+  padding: 5px;
+  font-size: 14pt;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+canvas {
+  width: 128px;
+  height: 128px;
+}

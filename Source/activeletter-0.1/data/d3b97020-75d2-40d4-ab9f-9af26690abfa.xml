@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active_letter xmlns="http://nhshack.org.uk/active_letter/1">
+    <tags/>
+    <topic_of_letter>Dr Ram Myeloma Clinic</topic_of_letter>
+    <contact_details>
+        <contact>
+            <id>Dr. A. Cee, Consultant Haematologiest,  Cancer and Haematology Centre, Churchill Hospital, Roosevelt Drive, Oxford OX3 7LE Phone: 01865 111 111 Email. a.cee@ouh.nhs.uk</id>
+        </contact>
+        <contact>
+            <id>A. Dee, Clinical Nurse Specialist, Cancer and Haematology Centre, Churchill Hospital, Roosevelt Drive, Oxford OX3 7LE Phone: 01865 999 999 Email. a.dee@ouh.nhs.uk</id>
+        </contact>
+    </contact_details>
+    <patient_details>
+        <nhs_number>123-456-1234</nhs_number>
+        <local_hospital_number>111222333</local_hospital_number>
+        <surname>Nonymous</surname>
+        <forename>Andrea</forename>
+        <address_line_1>1 Nowhere Street</address_line_1>
+        <address_line_2>Back end of beyond</address_line_2>
+        <address_line_3>Oxford</address_line_3>
+        <postcode>OX1 1AA</postcode>
+        <preferred_email_address>a.nonymous@gmail.com</preferred_email_address>
+        <date_of_birth>23/01/1943</date_of_birth>
+        <land_line_number>01865 123 456</land_line_number>
+        <mobile_number>79982 654 234</mobile_number>
+    </patient_details>
+    <letter>
+        <diagnosis>MGUS</diagnosis>
+        <consultant_name>Dr. A Cee</consultant_name>
+        <narrative>Thank you for referring this 76 yr old lady. You referred finding an incidentally raised IgG. 
+
+She is currently asymptomatic and denies any pain and tiredness. I have completed her investigations and normal FBC, renal function, calcium, liver function. Her skeletal survey was normal.  
+
+I have diagnosed this patient with MGUS [monoclonal gammopathy of undetermined significance]. I have explained to her the risk of progression to myeloma and need for monitoring. I would be grateful if you could monitor this patient as described in the task list below following the parameters for re-referral should this be necessary. 
+
+I have discharged this lady back to your care, but the monitoring outline below is essential and I would be happy to see her again should the clinical picture change.
+
+
+Regards,
+
+Dr A. Cee</narrative>
+    </letter>
+    <task_list>
+        <task>
+            <id/>
+            <description>Monitor for symptoms or signs of progression – Bone pain, pathological fractures, anaemia, tiredness. </description>
+            <help_link>http://www.mapofmedicine.com/</help_link>
+            <frequency>3 monthly</frequency>
+            <next_due_date>27/04/2013</next_due_date>
+            <dates_action_taken>
+                <date/>
+                <date/>
+            </dates_action_taken>
+            <actions>
+                <action>
+                    <id/>
+                    <trigger>IF any abnormal refer to Haematology</trigger>
+                    <status>Not done</status>
+                    <result/>
+                    <notes/>
+                </action>
+                <action>
+                    <id/>
+                    <trigger/>
+                    <status/>
+                    <result/>
+                    <notes/>
+                </action>
+            </actions>
+        </task>
+        <task>
+            <id/>
+            <description>IgA Blood Test</description>
+            <help_link/>
+            <frequency>3 monthly</frequency>
+            <next_due_date>27/04/2013</next_due_date>
+            <dates_action_taken>
+                <date/>
+                <date/>
+            </dates_action_taken>
+            <actions>
+                <action>
+                    <id/>
+                    <trigger>IF IgA less than 10g/l repeat and continue to monitor</trigger>
+                    <status/>
+                    <result/>
+                    <notes/>
+                </action>
+                <action>
+                    <id/>
+                    <trigger>IF IgA 10-15g/l refer to haematology</trigger>
+                    <status/>
+                    <result/>
+                    <notes/>
+                </action>
+            </actions>
+        </task>
+        <task>
+            <id/>
+            <description>IgG Blood Test</description>
+            <help_link/>
+            <frequency>3 monthly</frequency>
+            <next_due_date>27/04/2013</next_due_date>
+            <dates_action_taken>
+                        </dates_action_taken>
+            <actions>
+                <action>
+                    <id>d3b97020-75d2-40d4-ab9f-9af26690abfa</id>
+                    <trigger>IF IgG less than 15g/l repeat and continue to monitor</trigger>
+                    <status/>
+                    <result/>
+                    <notes/>
+                </action>
+                <action>
+                    <id/>
+                    <trigger>IF IgG 15-30g/l refer to haematology</trigger>
+                    <status/>
+                    <result/>
+                    <notes/>
+                </action>
+            </actions>
+        </task>
+    </task_list>
+    <guidance/>
+    <guidance_patient/>
+    <references>
+        <reference>
+            <id>1</id>
+            <description>Map of Medicine </description>
+            <reference>http://www.mapofmedicine.com/</reference>
+        </reference>
+        <reference>
+            <id>2</id>
+            <description>MacMillan – Patient Information</description>
+            <reference>http://www.macmillan.org.uk/Cancerinformation/Causesriskfactors/Pre-cancerous/MGUS.aspx</reference>
+        </reference>
+    </references>
+</active_letter>

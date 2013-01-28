@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://nhshack.org.uk/active_letter/1" xmlns:a="http://nhshack.org.uk/active_letter/1">
+  <xs:element name="active_letter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="a:tags"/>
+        <xs:element ref="a:topic-of-letter"/>
+        <xs:element ref="a:contact-details"/>
+        <xs:element ref="a:patient_details"/>
+        <xs:element ref="a:letter"/>
+        <xs:element ref="a:task_list"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tags">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="topic-of-letter">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="contact-details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="a:contact"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contact" type="a:id"/>
+  <xs:element name="patient_details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="a:nhs_number"/>
+        <xs:element ref="a:local_hospital_number"/>
+        <xs:element ref="a:surname"/>
+        <xs:element ref="a:forename"/>
+        <xs:element ref="a:address_line_1"/>
+        <xs:element ref="a:address_line_2"/>
+        <xs:element ref="a:address_line_3"/>
+        <xs:element ref="a:postcode"/>
+        <xs:element ref="a:preferred_email_address"/>
+        <xs:element ref="a:date_of_birth"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nhs_number">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="local_hospital_number">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="surname">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="forename">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="address_line_1">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="address_line_2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="address_line_3">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="postcode">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="preferred_email_address">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="date_of_birth">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="letter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="a:diagnosis"/>
+        <xs:element ref="a:consultant_name"/>
+        <xs:element ref="a:narrative"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="diagnosis">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="consultant_name">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="narrative">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="task_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="a:task"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="task">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="a:id">
+          <xs:sequence>
+            <xs:element ref="a:description"/>
+            <xs:element ref="a:help_link"/>
+            <xs:element ref="a:frequency"/>
+            <xs:element ref="a:next_due_date"/>
+            <xs:element ref="a:dates_action_taken"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="help_link">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="frequency">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="next_due_date">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="dates_action_taken">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="a:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date" type="xs:date"/>
+  <xs:complexType name="id">
+    <xs:sequence>
+      <xs:element ref="a:id"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="id">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

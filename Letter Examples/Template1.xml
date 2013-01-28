@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<active_letter xmlns="http://nhshack.org.uk/active_letter/1">
+    <tags></tags>
+    <topic-of-letter>        
+    </topic-of-letter>
+    <contact-details>
+        <contact>        <id></id>
+        </contact>
+        <contact>        <id></id>
+        </contact>   
+    </contact-details>
+    <patient_details>
+        <nhs_number></nhs_number>
+        <local_hospital_number></local_hospital_number>        
+        <surname></surname>
+        <forename></forename>   
+        <address_line_1></address_line_1>        
+        <address_line_2></address_line_2> 
+        <address_line_3></address_line_3>
+        <postcode></postcode> 
+        <preferred_email_address></preferred_email_address>            
+        <date_of_birth></date_of_birth>        
+    </patient_details>    
+    <letter>
+        <diagnosis></diagnosis>
+        <diagnosis></diagnosis>
+        <diagnosis></diagnosis>
+        <consultant_name></consultant_name>
+        <narrative></narrative>        
+    </letter>    
+    <task_list>
+        <task>
+            <id></id>
+            <description></description>
+            <help_link></help_link>
+            <frequency></frequency>
+            <next_due_date></next_due_date>
+            <dates_action_taken>
+                <date>2012-01-10</date>
+                <date>2013-01-24</date>
+            </dates_action_taken>            
+        </task>
+        <task>
+            <id></id>
+            <description></description>
+            <help_link></help_link>
+            <frequency></frequency>
+            <next_due_date></next_due_date>
+            <dates_action_taken>
+                <date>2012-01-10</date>
+                <date>2013-01-24</date>
+            </dates_action_taken>            
+        </task>
+        <task>
+            <id></id>
+            <description></description>
+            <help_link></help_link>
+            <frequency></frequency>
+            <next_due_date></next_due_date>
+            <dates_action_taken>
+                <date>2012-01-10</date>
+                <date>2013-01-24</date>
+            </dates_action_taken>            
+        </task>
+    </task_list>
+        
+</active_letter>
+
+                                        
+                                                                                
+                                                                                
